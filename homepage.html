@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>IFC - Sombrio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="homepagestyle.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-banner">
+      <h1>IFC-Sombrio</h1>
+    </div>
+    <div class="clear"></div>
+    <nav>
+      <div class="site-title">IFC-Sombrio</div>
+      <ul>
+        <li><a href="telalogin.html">Login</a></li>
+        <ul>
+    </nav>
+  </header>
+
+  <script>
+    $(window).scroll(function () {
+      if ($(window).scrollTop() >= 300) {
+        $('nav').addClass('fixed-header');
+        $('nav div').addClass('visible-title');
+      } else {
+        $('nav').removeClass('fixed-header');
+        $('nav div').removeClass('visible-title');
+      }
+    });
+  </script>
+  <aside class="banner primeiro">
+    <div class="container-envelope">
+      <svg class="cirle-a" height="160" width="160">
+        <circle cx="80" cy="80" r="80" />
+      </svg>
+      <svg class="cirle-b" height="60" width="60">
+        <circle cx="30" cy="30" r="30" />
+      </svg>
+      <svg class="cirle-c" height="600" width="600">
+        <circle cx="300" cy="300" r="300" />
+      </svg>
+      <svg class="cirle-d" height="60" width="60">
+        <circle cx="30" cy="30" r="30" />
+      </svg>
+      <img src="fotos/aulas.png" class="bannerimg" />
+      <div class="col-xs-12">
+        <p>Aulas</p>
+        <a href="aulas.html" class="acessar">Acessar</a>
+      </div>
+    </div>
+  </aside>
+  <aside class="banner segundo">
+    <div class="container-envelope">
+      <svg class="cirle-a" height="160" width="160">
+        <circle cx="80" cy="80" r="80" />
+      </svg>
+      <svg class="cirle-b" height="60" width="60">
+        <circle cx="30" cy="30" r="30" />
+      </svg>
+      <svg class="cirle-c" height="600" width="600">
+        <circle cx="300" cy="300" r="300" />
+      </svg>
+      <svg class="cirle-d" height="60" width="60">
+        <circle cx="30" cy="30" r="30" />
+      </svg>
+      <img src="fotos/sisae.png" class="bannerimg" />
+      <div class="col-xs-12">
+        <p>Sisae</p>
+        <a href="sisae.html" class="acessar">Acessar</a>
+      </div>
+    </div>
+  </aside>
+  <aside class="banner terceiro">
+    <div class="container-envelope">
+      <svg class="cirle-a" height="160" width="160">
+        <circle cx="80" cy="80" r="80" />
+      </svg>
+      <svg class="cirle-b" height="60" width="60">
+        <circle cx="30" cy="30" r="30" />
+      </svg>
+      <svg class="cirle-c" height="600" width="600">
+        <circle cx="300" cy="300" r="300" />
+      </svg>
+      <svg class="cirle-d" height="60" width="60">
+        <circle cx="30" cy="30" r="30" />
+      </svg>
+      <img src="fotos/simulados.png" class="bannerimg" />
+      <div class="col-xs-12">
+        <p>Simulados</p>
+        <a href="simulados.html" class="acessar">Acessar</a>
+      </div>
+    </div>
+  </aside>
+  <footer>
+    <p>IFC 2023 © IFC 2023</p>
+  </footer>
+
+</body>
+
+</html>
