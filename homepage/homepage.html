@@ -12,17 +12,7 @@
 </head>
 
 <body>
-  <script>
-    $(window).scroll(function () {
-      if ($(window).scrollTop() >= 300) {
-        $('nav').addClass('fixed-header');
-        $('nav div').addClass('visible-title');
-      } else {
-        $('nav').removeClass('fixed-header');
-        $('nav div').removeClass('visible-title');
-      }
-    });
-  </script>
+
   <header>
     <div class="header-banner">
       <h1>IFC - Campus Avançado Sombrio</h1>
@@ -35,6 +25,62 @@
         <ul>
     </nav>
   </header>
+
+  <!-- MENU ESCONDIDO -->
+    <script type="text/javascript" src="../menuescondido.js"></script>
+    <div id="menu-container">
+        <div id="menu-wrapper">
+            <div id="hamburger-menu"><span></span><span></span><span></span></div>
+        </div>
+        <ul class="menu-list accordion">
+            <li id="nav1" class="toggle accordion-toggle">
+                <a class="menu-link" href="../homepage/homepage.html">Menu Inicial</a>
+            </li>
+            <li id="nav1" class="toggle accordion-toggle">
+                <span class="icon-plus"></span>
+                <a class="menu-link" href="../calendario/calendario.html">Calendário Acadêmico</a>
+            </li>
+            <ul class="menu-submenu accordion-content">
+            </ul>
+            <li id="nav2" class="toggle accordion-toggle">
+                <span class="icon-plus"></span>
+                <a class="menu-link" href="../materias/materias.html">Matérias</a>
+            </li>
+            <ul class="menu-submenu accordion-content">
+                <li><a class="head" href="#">Artes</a></li>
+                <li><a class="head" href="#">Biologia</a></li>
+                <li><a class="head" href="#">Filosofia</a></li>
+                <li><a class="head" href="#">Física</a></li>
+                <li><a class="head" href="#">Geografia</a></li>
+                <li><a class="head" href="#">História</a></li>
+                <li><a class="head" href="#">Matemática</a></li>
+                <li><a class="head" href="#">Português</a></li>
+                <li><a class="head" href="#">Química</a></li>
+                <li><a class="head" href="#">Sociologia</a></li>
+            </ul>
+            <li id="nav3" class="toggle accordion-toggle">
+                <span class="icon-plus"></span>
+                <a class="menu-link" href="../simulados/simulados.html">Joaninha dicas</a>
+            </li>
+            <ul class="menu-submenu accordion-content">
+                <li><a class="head" href="#">Artes</a></li>
+                <li><a class="head" href="#">Biologia</a></li>
+                <li><a class="head" href="#">Filosofia</a></li>
+                <li><a class="head" href="#">Física</a></li>
+                <li><a class="head" href="#">Geografia</a></li>
+                <li><a class="head" href="#">História</a></li>
+                <li><a class="head" href="#">Matemática</a></li>
+                <li><a class="head" href="#">Português</a></li>
+                <li><a class="head" href="#">Química</a></li>
+                <li><a class="head" href="#">Sociologia</a></li>
+            </ul>
+        </ul>
+    </div>
+    <!-- MENU ESCONDIDO -->
+  
+
+  <!-- MENU PRINCIPAL -->
+<script type="text/javascript" src="homepage.js"></script>
 </div>
   <aside class="banner primeiro">
     <div class="container-envelope">
@@ -92,15 +138,17 @@
       <svg class="cirle-d" height="60" width="60">
         <circle cx="30" cy="30" r="30" />
       </svg>
-      <img src="../fotos/simulados.png" class="bannerimg" />
+      <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/6730439-joaninha-personagem-ilustracao-desenho-desenho-joaninha-isolado-em-fundo-branco-gratis-vetor.jpg" class="bannerimg" />
       <div class="col-xs-12">
-        <p>Simulados</p>
-        <a href="../simulados/simulados.html" class="acessar">Acessar</a>
+        <p>Joaninha dicas</p>
+        <a href="instagram.com/joaninhajacare" class="acessar">Acessar</a>
       </div>
     </div>
   </aside>
+  <!-- MENU PRINCIPAL -->
+
   <footer>
-    <p>IFC 2023 © IFC 2023</p>
+    <p>Todos os direitos reservados © daiogodoermo 2023</p>
   </footer>
 </body>
 
