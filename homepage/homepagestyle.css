@@ -279,14 +279,14 @@ textarea {
         }
 
 
-        #menu-wrapper #hamburger-menu {
+        #menu-wrapper #hidden-menu {
             position: relative;
             width: 25px;
             height: 20px;
             margin: 15px;
         }
 
-        #menu-wrapper #hamburger-menu span {
+        #menu-wrapper #hidden-menu span {
             opacity: 1;
             left: 0;
             display: block;
@@ -300,28 +300,28 @@ textarea {
             transition: .4s ease-in-out;
         }
 
-        #menu-wrapper #hamburger-menu span:nth-child(1) {
+        #menu-wrapper #hidden-menu span:nth-child(1) {
             top: 0;
         }
 
-        #menu-wrapper #hamburger-menu span:nth-child(2) {
+        #menu-wrapper #hidden-menu span:nth-child(2) {
             top: 9px;
         }
 
-        #menu-wrapper #hamburger-menu span:nth-child(3) {
+        #menu-wrapper #hidden-menu span:nth-child(3) {
             top: 18px;
         }
 
-        #menu-wrapper #hamburger-menu.open span:nth-child(1) {
+        #menu-wrapper #hidden-menu.open span:nth-child(1) {
             transform: translateY(9px) rotate(135deg);
         }
 
-        #menu-wrapper #hamburger-menu.open span:nth-child(2) {
+        #menu-wrapper #hidden-menu.open span:nth-child(2) {
             opacity: 0;
             transform: translateX(-60px);
         }
 
-        #menu-wrapper #hamburger-menu.open span:nth-child(3) {
+        #menu-wrapper #hidden-menu.open span:nth-child(3) {
             transform: translateY(-9px) rotate(-135deg);
         }
 

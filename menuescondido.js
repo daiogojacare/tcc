@@ -5,7 +5,7 @@ $(function() {
     }
     $("#menu-wrapper").click(function(event) {
       event.stopPropagation();
-      $("#hamburger-menu").toggleClass("open");
+      $("#hidden-menu").toggleClass("open");
       $("#menu-container .menu-list").toggleClass("active");
       slideMenu();
   
